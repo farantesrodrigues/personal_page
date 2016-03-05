@@ -4,7 +4,8 @@
   "description": "Personal page for Francisco Arantes at url www.arantes.eu",
   "main": "index.js",
   "engines": {
-    "node": "5.7.1"
+    "node": "5.7.1",
+    "npm": "3.6.0"
   },
   "scripts": {
     "test": "npm test",
@@ -31,6 +32,7 @@
     "rxjs": "^5.0.0-beta.2",
     "snapsvg": "^0.4.0",
     "systemjs": "^0.19.22",
+    "tsd": "^0.6.5",
     "what-input": "^1.2.5",
     "zone.js": "^0.5.15"
   }
