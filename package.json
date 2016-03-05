@@ -1,0 +1,33 @@
+{
+  "name": "personal_page",
+  "version": "1.0.0",
+  "description": "Personal page for Francisco Arantes at url www.arantes.eu",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "lite-server",
+    "postinstall": "tsd install"
+  },
+  "author": "francisco@arantes.eu",
+  "license": "ISC",
+  "devDependencies": {
+    "jade": "^1.11.0",
+    "lite-server": "^2.1.0",
+    "typescript": "^1.7.5",
+    "typings": "^0.6.8"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.6",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.3",
+    "express": "^4.13.4",
+    "foundation-sites": "^6.1.2",
+    "jquery": "^2.1.4",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "snapsvg": "^0.4.0",
+    "systemjs": "^0.19.22",
+    "what-input": "^1.2.5",
+    "zone.js": "^0.5.15"
+  }
+}

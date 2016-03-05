@@ -1,0 +1,46 @@
+// Created by fran on 19/02/16.
+
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='x-ua-compatible', content='ie=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title Francisco Arantes
+        link(rel='stylesheet', href='./app/main.css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300,500,700', rel='stylesheet', type='text/css')
+        link(href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css", rel='stylesheet', type='text/css')
+
+        script(src="node_modules/snapsvg/dist/snap.svg.js")
+        // IE required polyfills
+        script(src="node_modules/es6-shim/es6-shim.min.js")
+        script(src="node_modules/systemjs/dist/system-polyfills.js")
+
+        script(src="node_modules/angular2/bundles/angular2-polyfills.js")
+        script(src="node_modules/systemjs/dist/system.src.js")
+        script(src="node_modules/rxjs/bundles/Rx.js")
+        script(src="node_modules/angular2/bundles/angular2.dev.js")
+
+        script.
+            System.config({
+                packages: {
+                    "app": {
+                        "format": "register",
+                        "defaultExtension": "js"
+                    }
+                }
+            });
+
+            System.import('./app/main').then(function (m) {
+                console.dir('Main module loaded! ', m);
+            }, console.error.bind(console));
+    body
+        layout Loading...
+
+        script(src='node_modules/jquery/dist/jquery.min.js')
+        script(src='node_modules/what-input/what-input.min.js')
+        script(src='node_modules/foundation-sites/dist/foundation.min.js')
+        script.
+            $(document).ready(function () {
+                $(document).foundation();
+            });
