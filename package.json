@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Personal page for Francisco Arantes at url www.arantes.eu",
   "main": "index.js",
+  "engines": {
+    "node": "5.7.1"
+  },
   "scripts": {
     "test": "npm test",
     "dev": "lite-server",
+    "start": "node index.js",
     "postinstall": "tsd install"
   },
   "author": "francisco@arantes.eu",
