@@ -17,12 +17,14 @@
   "license": "ISC",
   "devDependencies": {
     "jade": "^1.11.0",
+    "jasmine-core": "2.4.1",
     "lite-server": "^2.1.0",
     "typescript": "^1.7.5",
     "typings": "^0.6.8"
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.6",
+    "d3": "^3.5.16",
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.33.3",
     "express": "^4.13.4",
@@ -30,7 +32,6 @@
     "jquery": "^2.1.4",
     "reflect-metadata": "0.1.2",
     "rxjs": "^5.0.0-beta.2",
-    "snapsvg": "^0.4.0",
     "systemjs": "^0.19.22",
     "tsd": "^0.6.5",
     "what-input": "^1.2.5",

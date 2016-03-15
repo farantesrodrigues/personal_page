@@ -1,7 +1,16 @@
 
 <!-- Created by fran on 25/02/16.-->
 <div class="top-bar">
-  <div class="top-bar-title">Francisco Arantes</div>
-  <div class="top-bar-left">Web Development</div>
-  <div class="top-bar-right">francisco@arantes.eu</div>
+  <div class="top-bar-title"><a href="/">Francisco Arantes</a></div>
+  <div class="top-bar-left"><a href="mailto:francisco@arantes.eu"><i class="icon ion-email"></i></a></div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><a [routerLink]="[&quot;Bio&quot;]">Bio</a></li>
+      <li><a [routerLink]="[&quot;Angular&quot;]">Angular JS</a></li>
+      <li><a [routerLink]="[&quot;Economics&quot;]">Code & Economics</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <router-outlet></router-outlet>
 </div>

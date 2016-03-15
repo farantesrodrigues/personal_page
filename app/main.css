@@ -376,7 +376,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Mono";
+  font-family: "Work Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #212121;
@@ -1316,7 +1316,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Mono";
+  font-family: "Work Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -3346,5 +3346,19 @@ table.hover tr:nth-of-type(even):hover {
 
 .top-bar-right {
   float: right; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.x.axis path {
+  display: none; }
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px; }
 
 /*# sourceMappingURL=main.css.map */
