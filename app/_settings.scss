@@ -48,13 +48,13 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 
-$primary-color: #3F51B5;
-$secondary-color: #FF9800;
-$success-color: #C5CAE9;
-$warning-color: #303F9F;
+$primary-color: #03A9F4;
+$secondary-color: #FFEB3B;
+$success-color: #0288D1;
+$warning-color: #B3E5FC;
 $alert-color: #ec5840;
-$light-gray: #B6B6B6;
-$medium-gray: #B6B6B6;
+$light-gray: #727272;
+$medium-gray: #727272;
 $dark-gray: #727272;
 $black: #212121;
 $white: #FFFFFF;
@@ -135,7 +135,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: $secondary-color; ///////////////////////////////////////////////////////////
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -546,6 +546,6 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $white;
+$topbar-background: $primary-color; //////////////////////////////////////////////////////////////////////////
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;

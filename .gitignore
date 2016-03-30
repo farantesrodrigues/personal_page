@@ -1,3 +1,11 @@
 /node_modules
+/jspm_packages
+/coverage
+/docs
+/typings
 .idea
-*.jade
+*.html
+/app/**/*.js
+!/app/**/*.e2e.js
+*.map
+/app/**/*.css

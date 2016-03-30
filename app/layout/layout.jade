@@ -1,18 +1,31 @@
 // Created by fran on 25/02/16.
-
 .top-bar
     .top-bar-title
-        a(href="/") Francisco Arantes
+        .menu-text
+            strong
+                a(href="/") Francisco Arantes
     .top-bar-left
-        a(href="mailto:francisco@arantes.eu")
-            i.icon.ion-email
+        ul.menu
+            li
+                a(href="mailto:francisco@arantes.eu")
+                    i.icon.ion-at
+            li
+                a(href="https://fr.linkedin.com/in/franciscoarantesrodrigues")
+                    i.icon.ion-social-linkedin
+            li
+                a(href="https://github.com/farantesrodrigues")
+                    i.icon.ion-social-github
     .top-bar-right
         ul.menu
             li
                 a([routerLink]='["Bio"]') Bio
             li
-                a([routerLink]='["Angular"]') Angular JS
+                a([routerLink]='["Angular"]')
+                    i.icon.ion-social-javascript
+                    i.icon.ion-social-angular
+                    i.icon.ion-social-python
+                    span Code
             li
-                a([routerLink]='["Economics"]') Code & Economics
+                a([routerLink]='["Economics"]') Other
 .row
     router-outlet

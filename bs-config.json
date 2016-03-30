@@ -1,6 +1,6 @@
 {
   "port": 8000,
-  "files": ["./node_modules/**/*.{css,js}", "./app/**/*.{html,css,js}", "./src/**/*.{html,css,js}"],
+  "files": ["./node_modules/**/*", "./jspm_packages/**/*", "./app/**/*"],
   "server": {
     "index": "./index.html"
   }
